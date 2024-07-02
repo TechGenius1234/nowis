@@ -3,41 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nowis's GitHub Page</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 10px 0;
-            text-align: center;
-        }
-        h1 {
-            color: #333;
-            text-align: center;
-        }
-        h5 {
-            color: #555;
-            text-align: center;
-        }
-        main {
-            padding: 20px;
-        }
-    </style>
+    <title>Catch the Cat Game</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to Nowis's GitHub Page</h1>
+        <h1>Catch the Cat!</h1>
+        <p>Click the cat to score points!</p>
+        <div id="score">Score: 0</div>
     </header>
     <main>
-        <h5>Meow! I love cats!</h5>
-        <h1>I am Nowis or Maybenowis123, and I also love video games!!!</h1>
+        <div id="game-area">
+            <img src="cat.png" id="cat" alt="Cat">
+        </div>
     </main>
+    <script src="script.js"></script>
 </body>
 </html>
